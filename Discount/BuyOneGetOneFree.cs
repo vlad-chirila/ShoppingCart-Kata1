@@ -11,6 +11,9 @@ public class BuyOneGetOneFree : IDiscount
 
     public void ApplyDiscount(ShoppingCart cart)
     {
+        if(!cart.Products.Any(p=>p.Name == discountedProduct.Name)){
+            throw new ProductMissingException("Cannot apply discount to product name: " + discountedProduct.Name);
+        }
         cart.Products.Add(discountedProduct);
     }
 }
