@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "coverlet.collector/3.1.2": {
+      "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
           "build/netstandard1.0/coverlet.collector.targets": {}
@@ -1776,34 +1776,29 @@
           }
         }
       },
-      "ShoppingCart-Kata1-UnitTest/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MSTest.TestAdapter": "2.2.10",
-          "MSTest.TestFramework": "2.2.10",
-          "Microsoft.NET.Test.Sdk": "17.6.0",
-          "Newtonsoft.Json": "13.0.1",
-          "NuGet.Frameworks": "5.11.0",
-          "xunit": "2.4.1"
-        },
+      "xunit.runner.visualstudio/2.4.5": {
+        "type": "package",
         "compile": {
-          "bin/placeholder/ShoppingCart-Kata1-UnitTest.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
-          "bin/placeholder/ShoppingCart-Kata1-UnitTest.dll": {}
+          "lib/netcoreapp3.1/_._": {}
+        },
+        "build": {
+          "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       }
     }
   },
   "libraries": {
-    "coverlet.collector/3.1.2": {
-      "sha512": "wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
+    "coverlet.collector/6.0.0": {
+      "sha512": "tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "type": "package",
-      "path": "coverlet.collector/3.1.2",
+      "path": "coverlet.collector/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "build/netstandard1.0/Microsoft.Bcl.AsyncInterfaces.dll",
         "build/netstandard1.0/Microsoft.CSharp.dll",
         "build/netstandard1.0/Microsoft.DotNet.PlatformAbstractions.dll",
         "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
@@ -1831,6 +1826,7 @@
         "build/netstandard1.0/System.Reflection.Emit.dll",
         "build/netstandard1.0/System.Reflection.Metadata.dll",
         "build/netstandard1.0/System.Reflection.TypeExtensions.dll",
+        "build/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "build/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
         "build/netstandard1.0/System.Text.RegularExpressions.dll",
         "build/netstandard1.0/System.Threading.Tasks.Extensions.dll",
@@ -1844,7 +1840,7 @@
         "build/netstandard1.0/coverlet.core.dll",
         "build/netstandard1.0/coverlet.core.pdb",
         "coverlet-icon.png",
-        "coverlet.collector.3.1.2.nupkg.sha512",
+        "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
       ]
     },
@@ -5956,10 +5952,39 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "ShoppingCart-Kata1-UnitTest/1.0.0": {
-      "type": "project",
-      "path": "ShoppingCart-Kata1-UnitTest/ShoppingCart-Kata1-UnitTest.csproj",
-      "msbuildProject": "ShoppingCart-Kata1-UnitTest/ShoppingCart-Kata1-UnitTest.csproj"
+    "xunit.runner.visualstudio/2.4.5": {
+      "sha512": "OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/2.4.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/net462/xunit.abstractions.dll",
+        "build/net462/xunit.runner.reporters.net452.dll",
+        "build/net462/xunit.runner.utility.net452.dll",
+        "build/net462/xunit.runner.visualstudio.props",
+        "build/net462/xunit.runner.visualstudio.testadapter.dll",
+        "build/netcoreapp3.1/xunit.abstractions.dll",
+        "build/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
+        "build/netcoreapp3.1/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.reporters.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.pri",
+        "build/uap10.0.16299/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.visualstudio.targets",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.dll",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.pri",
+        "lib/net462/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/uap10.0.16299/_._",
+        "logo-512-transparent.png",
+        "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -5969,9 +5994,9 @@
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "Newtonsoft.Json >= 13.0.1",
       "NuGet.Frameworks >= 5.11.0",
-      "ShoppingCart-Kata1-UnitTest >= 1.0.0",
-      "coverlet.collector >= 3.1.2",
-      "xunit >= 2.4.1"
+      "coverlet.collector >= 6.0.0",
+      "xunit >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
@@ -5981,11 +6006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj",
-      "projectName": "ShoppingCart-Kata1",
-      "projectPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj",
+      "projectUniqueName": "D:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj",
+      "projectName": "ShoppingCart-Kata1-UnitTest",
+      "projectPath": "D:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj",
       "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-      "outputPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\obj\\",
+      "outputPath": "D:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6006,11 +6031,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj": {
-              "projectPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6044,12 +6065,20 @@
             "version": "[5.11.0, )"
           },
           "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[3.1.2, )"
+            "version": "[6.0.0, )"
           },
           "xunit": {
             "target": "Package",
             "version": "[2.4.1, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.5, )"
           }
         },
         "imports": [

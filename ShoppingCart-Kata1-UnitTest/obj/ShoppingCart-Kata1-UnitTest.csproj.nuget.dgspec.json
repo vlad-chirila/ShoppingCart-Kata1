@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj": {}
+    "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj": {}
   },
   "projects": {
     "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj": {
@@ -80,100 +80,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.4.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj",
-        "projectName": "ShoppingCart-Kata1",
-        "projectPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj",
-        "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-        "outputPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Vlad-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj": {
-                "projectPath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.6.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "NuGet.Frameworks": {
-              "target": "Package",
-              "version": "[5.11.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
             }
           },
           "imports": [

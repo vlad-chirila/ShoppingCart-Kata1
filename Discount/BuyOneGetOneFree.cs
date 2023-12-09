@@ -16,4 +16,13 @@ public class BuyOneGetOneFree : IDiscount
         }
         cart.Products.Add(discountedProduct);
     }
+
+    public void RemoveDiscount(){
+        throw new NotImplementedException();
+    }
+
+    public void DoubleDiscount(ShoppingCart cart){
+        ApplyDiscount(cart);
+        ApplyDiscount(cart);
+    }
 }

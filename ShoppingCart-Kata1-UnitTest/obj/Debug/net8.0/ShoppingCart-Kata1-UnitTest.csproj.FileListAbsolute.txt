@@ -1,0 +1,6 @@
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.csproj.AssemblyReference.cache
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.AssemblyInfoInputs.cache
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.AssemblyInfo.cs
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.csproj.CoreCompileInputs.cache
+D:\Repos\Katas\ShoppingCart-Kata1\ShoppingCart-Kata1-UnitTest\obj\Debug\net8.0\ShoppingCart-Kata1-UnitTest.sourcelink.json

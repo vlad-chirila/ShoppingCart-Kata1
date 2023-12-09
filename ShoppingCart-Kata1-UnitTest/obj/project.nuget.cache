@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EdNQhLD0komiYI0XLaagqquFZ4ytph5bK6UK4uDU+pSlrM31VVj53q9jQpk2WkCxGs3C2T//F0xKDYxKUGJaWg==",
+  "dgSpecHash": "x76lxNccnOEYj+dkLth3lGwIJIIZ91IL0bwFy/R7ORzJdC9r5w3JvLcNfDzmU10p4HusLMXETjRkbaIiMagLvw==",
   "success": true,
-  "projectFilePath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1.csproj",
+  "projectFilePath": "d:\\Repos\\Katas\\ShoppingCart-Kata1\\ShoppingCart-Kata1-UnitTest\\ShoppingCart-Kata1-UnitTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vlad-PC\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Vlad-PC\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -95,7 +95,8 @@
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\Vlad-PC\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": []
 }
